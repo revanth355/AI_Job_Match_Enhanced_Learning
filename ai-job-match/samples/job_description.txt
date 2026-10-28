@@ -1,0 +1,6 @@
+Junior Data Analyst
+
+We are seeking a graduate to analyze business data and present clear reports.
+Required skills: Python, SQL, Pandas, Excel, Data Visualization and Statistics.
+Preferred skills: Power BI, Git and Communication.
+Responsibilities include cleaning datasets, creating dashboards and explaining findings to business teams.

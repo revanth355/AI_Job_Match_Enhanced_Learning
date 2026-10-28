@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Inspect project files",
+			"type": "shell",
+			"command": "Get-ChildItem -Name",
+			"isBackground": false
+		},
+		{
+			"label": "Inspect app configuration",
+			"type": "shell",
+			"command": "Get-ChildItem -Force ai-job-match; if (Test-Path ai-job-match\\package.json) { Get-Content ai-job-match\\package.json }; if (Test-Path ai-job-match\\README.md) { Get-Content ai-job-match\\README.md -TotalCount 120 }; if (Test-Path ai-job-match\\requirements.txt) { Get-Content ai-job-match\\requirements.txt -TotalCount 80 }",
+			"isBackground": false
+		},
+		{
+			"label": "Check Python environment",
+			"type": "shell",
+			"command": "Write-Output ('inner_venv=' + (Test-Path ai-job-match\\.venv)); Write-Output ('outer_python=' + (Test-Path .venv\\Scripts\\python.exe)); if (Test-Path .venv\\Scripts\\python.exe) { .\\.venv\\Scripts\\python.exe -m streamlit --version }",
+			"isBackground": false
+		},
+		{
+			"label": "Check available Streamlit",
+			"type": "shell",
+			"command": "Get-Command py,python -ErrorAction SilentlyContinue | Select-Object Name,Source; py -m streamlit --version 2>&1; python -m streamlit --version 2>&1",
+			"isBackground": false
+		},
+		{
+			"label": "Install app dependencies",
+			"type": "shell",
+			"command": "py -m pip install -r ai-job-match\\requirements.txt",
+			"isBackground": false
+		},
+		{
+			"label": "Run AI Job Match app",
+			"type": "shell",
+			"command": "py -m streamlit run ai-job-match\\app.py --server.headless true --server.address localhost --server.port 8501",
+			"isBackground": true
+		}
+	]
+}

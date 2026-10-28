@@ -1,0 +1,6 @@
+FICTIONAL DEMO ROLE - Python Developer
+Required skills: Python, SQL and Git.
+Experience: 2-4 years of professional experience.
+Required qualification: B.Tech.
+Graduation batch: 2023-2025.
+Build and document small data tools with the development team.

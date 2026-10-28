@@ -1,0 +1,12 @@
+Build environment: Python 3.12
+These are observed versions, not a lockfile.
+
+streamlit==1.66.1
+scikit-learn==1.8.0
+numpy==2.3.5
+pypdf==6.10.0
+python-docx==1.2.0
+sentence-transformers==6.2.0
+torch==2.14.1
+transformers==5.20.2
+reportlab==4.4.9

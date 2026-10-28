@@ -1,0 +1,14 @@
+FICTIONAL DEMO CANDIDATE
+Python developer creating small data tools and documenting results.
+
+WORK EXPERIENCE
+Total work experience: 3 years
+Developer, Example Software Company
+January 2021 - January 2024
+Built Python scripts to clean data and prepare reports.
+
+EDUCATION
+B.Tech in Computer Science, graduated 2024
+
+SKILLS
+Python, SQL and Git.

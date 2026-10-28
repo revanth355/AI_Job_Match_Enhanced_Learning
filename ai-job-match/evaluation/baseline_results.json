@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-26",
+  "cases": 16,
+  "human_reviewed_cases": 0,
+  "scope": "Synthetic development benchmark authored and labeled by the assistant; not an independent real-world accuracy estimate. Human review and held-out real documents are still needed.",
+  "metrics": {
+    "matched": {
+      "tp": 27,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9643,
+      "f1": 0.9818
+    },
+    "required": {
+      "tp": 40,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9756,
+      "f1": 0.9877
+    }
+  },
+  "requirement_checks": {
+    "correct": 8,
+    "total": 8
+  },
+  "exact_cases": 15,
+  "details": [
+    {
+      "id": "backend",
+      "role": "Backend developer",
+      "errors": []
+    },
+    {
+      "id": "frontend",
+      "role": "Frontend developer",
+      "errors": []
+    },
+    {
+      "id": "data",
+      "role": "Data analyst",
+      "errors": []
+    },
+    {
+      "id": "cloud",
+      "role": "Cloud engineer",
+      "errors": []
+    },
+    {
+      "id": "qa",
+      "role": "QA engineer",
+      "errors": [
+        {
+          "field": "matched",
+          "false_positive": [],
+          "false_negative": [
+            "Testing"
+          ]
+        },
+        {
+          "field": "required",
+          "false_positive": [],
+          "false_negative": [
+            "Testing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ml",
+      "role": "ML engineer",
+      "errors": []
+    },
+    {
+      "id": "java",
+      "role": "Java developer",
+      "errors": []
+    },
+    {
+      "id": "design",
+      "role": "Product designer",
+      "errors": []
+    },
+    {
+      "id": "negation",
+      "role": "Junior developer",
+      "errors": []
+    },
+    {
+      "id": "boundary",
+      "role": "Systems developer",
+      "errors": []
+    },
+    {
+      "id": "excluded",
+      "role": "Reporting analyst",
+      "errors": []
+    },
+    {
+      "id": "complex-priority",
+      "role": "Platform engineer",
+      "errors": []
+    },
+    {
+      "id": "scoped-pass",
+      "role": "Python developer",
+      "errors": []
+    },
+    {
+      "id": "unrelated-tenure",
+      "role": "Python developer",
+      "errors": []
+    },
+    {
+      "id": "too-little-relevant",
+      "role": "Python developer",
+      "errors": []
+    },
+    {
+      "id": "missing-specialization",
+      "role": "Python developer",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+DEMO CANDIDATE — B.Tech in Artificial Intelligence
+This is fictional sample content, not a verified resume.
+
+SUMMARY
+AI graduate interested in data analysis and practical machine learning applications.
+
+SKILLS
+Python, SQL, Pandas, NumPy, scikit-learn, Machine Learning, Git, HTML, CSS, JavaScript.
+
+PROJECTS
+Weather Dashboard: Built a JavaScript interface that displays weather data from REST APIs.
+Student Performance Analysis: Cleaned tabular data using Pandas and trained a machine learning baseline using scikit-learn.
+
+EDUCATION
+B.Tech in Artificial Intelligence.
